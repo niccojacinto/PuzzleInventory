@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 222515416641890824}
   - component: {fileID: 114435765103130806}
   - component: {fileID: 114519015443235942}
+  - component: {fileID: 114521458202462422}
   m_Layer: 5
   m_Name: InventorySlot
   m_TagString: Untagged
@@ -114,6 +115,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114521458202462422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1337452235966506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d417b9a57d95a947afda342366218b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  free: 1
 --- !u!114 &114723495043395412
 MonoBehaviour:
   m_ObjectHideFlags: 1

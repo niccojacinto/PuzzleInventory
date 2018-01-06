@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+[System.Serializable]
 public class SlotShape {
-    private int[,] _shape;
+    int[,] _shape;
     public int[,] Shape {get {return _shape; }}
     public SlotShape (int[,] slotShape = null) {
         if (slotShape == null)
